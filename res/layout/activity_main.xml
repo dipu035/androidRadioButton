@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="16dp" >
+    
+    <TextView android:id="@+id/tvQ1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#346342"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            android:text="Q1. Which one is the capital of Bangladesh?" 
+            />
+    
+    <RadioGroup android:id="@+id/rgQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        
+	     <RadioButton android:id="@+id/rbQ1"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="Chittagong"
+	        />
+	    
+	    <RadioButton android:id="@+id/rb1Q1"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="Dhaka"
+	        />
+	    
+	    <RadioButton android:id="@+id/rb2Q1"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="Barisal"
+	        />
+    </RadioGroup>
+    
+    <TextView android:id="@+id/tvQ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#346342"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            android:text="Q2. Android is based on?" 
+            />
+    
+    <RadioGroup android:id="@+id/rgQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        
+	     <RadioButton android:id="@+id/rbQ2"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="Linux"
+	        />
+	    
+	    <RadioButton android:id="@+id/rb1Q2"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="Windows"
+	        />
+	    
+	    <RadioButton android:id="@+id/rb2Q2"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="OS-X"
+	        />
+    </RadioGroup>
+    
+    <Button android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        />
+    
+    <TextView android:id="@+id/tvReasult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Score: " 
+            />
+
+</LinearLayout>
